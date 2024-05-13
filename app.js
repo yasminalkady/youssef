@@ -12,4 +12,7 @@ mongoose.connect('mongodb+srv://yasminhosny:AJRYNcb0reU08yiP@cluster0.thr7k5p.mo
 .then(()=>{app.listen(port, () => {
     console.log(`http://localhost:${port}/`)
   })})
-.catch((err)=>{console.log(err)})
+.catch((err)=>{console.log(err)
+
+    console.log('abdelrahman is bad');
+})
